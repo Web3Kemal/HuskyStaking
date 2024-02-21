@@ -7,6 +7,7 @@ import {
 } from "@chakra-ui/react";
 import { ConnectWallet } from "@thirdweb-dev/react";
 
+
 export default function Navbar() {
   const direction = useBreakpointValue({ base: "column", sm: "row" }) as
     | "column"
@@ -30,3 +31,5 @@ export default function Navbar() {
     </Box>
   );
 }
+
+

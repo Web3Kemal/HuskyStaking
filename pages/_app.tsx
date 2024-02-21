@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       activeChain={{
         ...Binance,
         rpc: ["https://bsc-dataseed2.binance.org/"],
+        
       }}
     >
       <ChakraProvider>
