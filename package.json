@@ -9,7 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "deploy": "next build && next export && npx thirdweb@latest upload out",
-    "postinstall": "export THIRDWEB_CLI_SKIP_INTRO=true && npx thirdweb generate --skip-update-check"
+    "postinstall": "cross-env THIRDWEB_CLI_SKIP_INTRO=true && npx thirdweb generate --skip-update-check"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.6.0",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^18.11.11",
     "@types/react": "^18",
+    "cross-env": "^7.0.3",
     "eslint": "^8.29.0",
     "eslint-config-next": "^13",
     "typescript": "^4.9.4"
