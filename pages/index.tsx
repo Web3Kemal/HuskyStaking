@@ -42,17 +42,6 @@ const Home: NextPage = () => {
           <RewardToken />
         </SimpleGrid>
         <Stake />
-        <Text align="center" my={4} color="white">
-          Made with 💙💛 by{" "}
-          <ChakraLink
-            color="blue.500"
-            href="https://twitter.com/Web3Kemal"
-            isExternal
-            target="_blank"
-          >
-            @Web3Kemal
-          </ChakraLink>
-        </Text>
       </Container>
       
     </Box>
